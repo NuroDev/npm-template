@@ -28,10 +28,7 @@
   "scripts": {
     "dev": "npm run build -- --watch",
     "build": "rimraf dist && tsup",
-    "build:prod": "cross-env NODE_ENV=production npm run build",
-    "example:build": "vite build ./example/",
-    "example:dev": "vite ./example/",
-    "example:preview": "vite preview ./example/"
+    "build:prod": "cross-env NODE_ENV=production npm run build"
   },
   "dependencies": {},
   "devDependencies": {
