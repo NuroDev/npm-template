@@ -15,18 +15,12 @@
     Project template to bootstrap a new TypeScript library</em>
     <br />
     <br />
-    <a href="https://www.npmjs.com/package/typescript-lib">
-       <img src="https://img.shields.io/npm/v/typescript-lib?label=%20&style=for-the-badge" alt="Package Version" />
-    </a>
-    <a href="https://www.npmjs.com/package/typescript-lib">
-      <img src="https://img.shields.io/npm/dm/typescript-lib?label=%20&style=for-the-badge" alt="Package Monthly Downloads" />
-    </a>
-    <a href="https://github.com/nurodev/typescript-lib">
-      <img src="https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge" alt="Docs" />
-    </a>
+  
+[![Package Version](https://img.shields.io/npm/v/typescript-lib?label=%20&style=for-the-badge)](https://www.npmjs.com/package/typescript-lib)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/typescript-lib?color=blue&label=%20&style=for-the-badge)](https://www.npmjs.com/package/typescript-lib)
+[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://github.com/nurodev/typescript-lib)
+
   </sup>
-  <br />
-  <br />
   <br />
   <br />
 </div>
