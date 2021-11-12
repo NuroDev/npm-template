@@ -23,6 +23,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Install
+      run: yarn install
+      
     - name: Build
       run: yarn build
 
@@ -39,6 +42,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
+    - name: Install
+      run: yarn install
 
     - name: Build
       run: yarn build:prod
