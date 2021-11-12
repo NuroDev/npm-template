@@ -30,7 +30,9 @@
     "build": "rimraf dist && tsup",
     "build:prod": "cross-env NODE_ENV=production npm run build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "winston": "^3.3.3"
+  },
   "devDependencies": {
     "@types/node": "^16.10.2",
     "cross-env": "^7.0.3",
