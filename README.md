@@ -4,7 +4,7 @@
     <br/>
     ❗
     <br />
-    typescript-lib
+    package-template
     <br />
     <br />
     <br />
@@ -12,13 +12,13 @@
   </h1>
   <sup>
     <br />
-    Project template to bootstrap a new TypeScript library</em>
+    Template project to build a new NPM package using TypeScript</em>
     <br />
     <br />
   
-[![Package Version](https://img.shields.io/npm/v/typescript-lib?label=%20&style=for-the-badge)](https://www.npmjs.com/package/typescript-lib)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/typescript-lib?color=blue&label=%20&style=for-the-badge)](https://www.npmjs.com/package/typescript-lib)
-[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://github.com/nurodev/typescript-lib)
+[![Package Version](https://img.shields.io/npm/v/package-template?label=%20&style=for-the-badge)](https://www.npmjs.com/package/package-template)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/package-template?color=blue&label=%20&style=for-the-badge)](https://www.npmjs.com/package/package-template)
+[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://github.com/nurodev/package-template)
 
   </sup>
   <br />
@@ -30,17 +30,17 @@
 Install it locally in your project
 
 ```bash
-npm i --save typescript-lib
+npm i --save package-template
 
 # Or with Yarn
 
-yarn add typescript-lib
+yarn add package-template
 ```
 
 ## 🦄 Usage
 
 ```typescript
-import { ... } from "typescript-lib";
+import { ... } from "package-template";
 
 // ...
 ```
