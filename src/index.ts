@@ -1,3 +1,1 @@
-export * from "./getFoo";
-
-export * from "./types/";
+export { add } from "./add";
