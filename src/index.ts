@@ -1,1 +1,1 @@
-export { add } from "./add";
+export { add } from "./modules";
