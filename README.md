@@ -30,17 +30,22 @@
 Install it locally in your project
 
 ```bash
-npm i --save package-template
+# npm
+npm install package-template
 
-# Or with Yarn
-
+# yarn
 yarn add package-template
+
+# pnpm
+pnpm install package-template
 ```
 
 ## 🦄 Usage
 
 ```typescript
-import { ... } from "package-template";
+// ESM
+import { } from 'package-template'
 
-// ...
+// CommonJS
+const { } = require('package-template')
 ```
