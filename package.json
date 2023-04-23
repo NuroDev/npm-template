@@ -1,13 +1,13 @@
 {
-  "name": "typescript-lib",
+  "name": "package-template",
   "version": "0.1.1",
   "description": "Project template to bootstrap a new TypeScript library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nurodev/typescript-lib.git"
+    "url": "https://github.com/nurodev/package-template.git"
   },
-  "homepage": "https://github.com/nurodev/typescript-lib",
-  "bugs": "https://github.com/nurodev/typescript-lib/issues",
+  "homepage": "https://github.com/nurodev/package-template",
+  "bugs": "https://github.com/nurodev/package-template/issues",
   "author": {
     "name": "nurodev",
     "email": "me@nuro.dev",
