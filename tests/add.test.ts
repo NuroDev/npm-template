@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { number } from "minifaker";
 
-import { add } from ".";
+import { add } from "~/add";
 
 describe("add", () => {
   it("1 + 2 = 3", () => expect(add(1, 2)).toEqual(3));

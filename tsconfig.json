@@ -14,8 +14,8 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext",
+    "target": "ESNext"
   },
-  "include": ["./src/**/*.ts"],
+  "include": ["./src/**/*.ts", "./tests/**/*.test.ts"],
   "exclude": ["node_modules", "dist"]
 }
