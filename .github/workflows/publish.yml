@@ -5,6 +5,9 @@ on:
     types:
       - published
 
+env:
+  NODE_ENV: production
+
 jobs:
   publish:
     runs-on: ubuntu-latest
