@@ -37,13 +37,12 @@
     "README.md"
   ],
   "scripts": {
+    "build": "rimraf dist && tsup",
     "coverage": "vitest run --coverage",
     "dev": "yarn build --watch",
-    "build": "rimraf dist && tsup",
-    "build:prod": "cross-env NODE_ENV=production yarn build",
     "test": "vitest run",
-    "test:watch": "vitest watch",
-    "test:ui": "vitest watch --ui"
+    "test:ui": "vitest watch --ui",
+    "test:watch": "vitest watch"
   },
   "dependencies": {},
   "devDependencies": {
