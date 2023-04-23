@@ -1,0 +1,36 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  NODE_ENV: production
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 19.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
+      - name: Test
+        run: yarn test
