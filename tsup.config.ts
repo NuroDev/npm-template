@@ -1,12 +1,16 @@
-import type { Options } from "tsup";
+import { defineConfig } from "tsup";
 
 const isProduction = process.env.NODE_ENV === "production";
 
-export const tsup: Options = {
+export default defineConfig(({ watch = false }) => ({
   clean: true,
   dts: true,
-  entryPoints: ["src/index.ts"],
-  format: ["cjs", "esm", "iife"],
+  entry: {
+    index: "src/index.ts",
+  },
+  external: [],
+  format: ["cjs", "esm"],
   minify: isProduction,
-  sourcemap: true,
-};
+  sourcemap: isProduction,
+  watch,
+}));
