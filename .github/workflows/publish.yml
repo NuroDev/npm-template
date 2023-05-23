@@ -18,7 +18,7 @@ jobs:
           node-version: 18.x
 
       - name: Install Dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Build
         run: yarn build
@@ -26,7 +26,7 @@ jobs:
           NODE_ENV: production
 
       - name: Test
-        run: yarn test
+        run: pnpm test
 
       - name: Publish
         uses: JS-DevTools/npm-publish@v1
