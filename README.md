@@ -2,7 +2,7 @@
   <h1>
     <br/>
     <br/>
-    ❗
+    💙
     <br />
     package-template
     <br />
@@ -44,8 +44,8 @@ pnpm install package-template
 
 ```typescript
 // ESM
-import { } from 'package-template'
+import {} from "package-template";
 
 // CommonJS
-const { } = require('package-template')
+const {} = require("package-template");
 ```
