@@ -39,9 +39,9 @@
   ],
   "scripts": {
     "build": "tsup",
-    "coverage": "vitest run --coverage",
     "dev": "tsup --watch",
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "test:ui": "vitest watch --ui",
     "test:watch": "vitest watch"
   },
